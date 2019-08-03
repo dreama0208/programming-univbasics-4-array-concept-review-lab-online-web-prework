@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def find_element_index(array, value_to_find)
   array.length.times { |index|
@@ -19,8 +19,7 @@ def find_max_value(array)
   max
 end
 
-  max
-end
+
 
 def find_min_value(array)
   array.min
