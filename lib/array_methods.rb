@@ -12,9 +12,10 @@ end
 def find_max_value(array)
   max = array[0]
   n = array.length-1
-  binding.pry
+
   n.times {|index|
   if array[index+1]>=array[index]
+      binding.pry
     max = array[index+1]
   end
   }
