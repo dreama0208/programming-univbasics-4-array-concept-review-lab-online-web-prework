@@ -11,7 +11,7 @@ def find_max_value(array)
   max = array[0]
   array.length.times {|index|
   while array[index+1]>=array[index]
-    max = array[index+!]
+    max = array[index+1]
   }
   max
 end
