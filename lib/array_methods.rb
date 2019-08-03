@@ -10,7 +10,7 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  max = array[0]
+  max = 0
   n = array.length-1
 
   n.times {|index|
