@@ -10,15 +10,16 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  max = 0
-  n = array.length-1
 
-  n.times {|index|
-  if array[index+1]>=array[index]
-      binding.pry
-    max = array[index+1]
-  end
-  }
+  max = 0
+    array.length.times do |count|
+      if array[count] > max
+        max = array[count]
+      end
+    end
+  max
+end
+
   max
 end
 
